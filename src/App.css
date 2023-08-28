@@ -1,0 +1,22 @@
+/* Global Scrollbar Styling */
+
+/* WebKit (Chrome, Safari) */
+/* These styles will affect Chrome and Safari */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ADD8E6;
+    /* Color of the thumb */
+    border-radius: 8px;
+    height:7px
+    /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    /* Color of the track */
+}
